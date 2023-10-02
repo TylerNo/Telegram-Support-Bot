@@ -1,0 +1,116 @@
+{
+  "StartMenu": {
+    "message": "Welcome to Telegram Support Bot!\n\nGet started by clicking one of the buttons below.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+    "image": "https://thumbs2.imgbox.com/96/e1/rVw9D89H_t.png",
+    "buttons": [
+      {
+        "label": "\uD83D\uDCC3 Browse Menu",
+        "id": "start1",
+        "line": 1,
+        "next_menu": "MenuMenu"
+      },
+      {
+        "label": "\uD83D\uDC4B About Us",
+        "id": "start2",
+        "line": 1,
+        "next_menu": "AboutMenu"
+      },
+      {
+        "label": "\uD83D\uDCE2 Our Feedback",
+        "id": "start3",
+        "line": 2,
+        "next_menu": "FeedbackMenu"
+      }
+    ]
+  },
+  "MenuMenu": {
+    "message": "Welcome to our menu!\n\nPraesent semper feugiat nibh sed. Eget egestas purus viverra accumsan in nisl nisi scelerisque. At ultrices mi tempus imperdiet nulla. Interdum posuere lorem ipsum dolor sit. Arcu ac tortor dignissim convallis. Imperdiet proin fermentum leo vel orci porta non pulvinar neque. At augue eget arcu dictum varius.",
+    "image": "https://thumbs2.imgbox.com/96/e1/rVw9D89H_t.png",
+    "buttons": [
+      {
+        "label": "\uD83C\uDF33 Button 1",
+        "id": "shop1",
+        "line": 1,
+        "next_menu": "<NEXT MENU ID>"
+      },
+      {
+        "label": "\uD83C\uDF6F Button 2",
+        "id": "shop2",
+        "line": 1,
+        "next_menu": "<NEXT MENU ID>"
+      },
+      {
+        "label": "\uD83D\uDC89 Button 3",
+        "id": "shop3",
+        "line": 2,
+        "next_menu": "<NEXT MENU ID>"
+      },
+      {
+        "label": "\uD83C\uDF6C Button 4",
+        "id": "shop4",
+        "line": 2,
+        "next_menu": "<NEXT MENU ID>"
+      },
+      {
+        "label": "\u2B05 Back",
+        "id": "shopback",
+        "line": 3,
+        "next_menu": "StartMenu"
+      }
+    ]
+  },
+  "AboutMenu": {
+    "message": "At consectetur lorem donec massa. Sagittis eu volutpat odio facilisis mauris sit. Arcu vitae elementum curabitur vitae nunc sed. Pretium lectus quam id leo in vitae turpis. Facilisis volutpat est velit egestas dui. Laoreet suspendisse interdum consectetur libero id faucibus nisl. Fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque. Nisl nisi scelerisque eu ultrices vitae auctor eu augue.",
+    "image": "https://thumbs2.imgbox.com/96/e1/rVw9D89H_t.png",
+    "buttons": [
+      {
+        "label": "Who We Are",
+        "id": "about1",
+        "line": 1,
+        "next_menu": "WhoWeAreMenu"
+      },
+      {
+        "label": "How To Order",
+        "id": "about2",
+        "line": 1,
+        "next_menu": "HowToOrderMenu"
+      },
+      {
+        "label": "Shipping Info",
+        "id": "about3",
+        "line": 2,
+        "next_menu": "ShippingInfoMenu"
+      },
+      {
+        "label": "All Channels",
+        "id": "about4",
+        "line": 2,
+        "next_menu": "AllChannelsMenu"
+      },
+      {
+        "label": "Refund Policy",
+        "id": "about5",
+        "line": 3,
+        "next_menu": "RefundPolicyMenu"
+      },
+      {
+        "label": "\u2B05 Back",
+        "id": "about6",
+        "line": 4,
+        "next_menu": "StartMenu"
+      }
+    ]
+  },
+  "FeedbackMenu": {
+    "message": "Semper risus in hendrerit gravida rutrum quisque non tellus orci. Elementum curabitur vitae nunc sed velit dignissim sodales ut eu. Iaculis eu non diam phasellus vestibulum lorem sed risus ultricies. Velit aliquet sagittis id consectetur purus. Ut tristique et egestas quis ipsum suspendisse ultrices.",
+    "image": "https://thumbs2.imgbox.com/96/e1/rVw9D89H_t.png",
+    "buttons": [
+      {
+        "label": "\u2B05 Back",
+        "id": "allchannels1",
+        "line": 1,
+        "next_menu": "StartMenu"
+      }
+    ]
+  }
+}
